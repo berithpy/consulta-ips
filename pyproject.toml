@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "consultaips"
+version = "0.1.0"
+description = ""
+authors = ["berithpy <berith.py@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+beautifulsoup4 = "^4.12.2"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
